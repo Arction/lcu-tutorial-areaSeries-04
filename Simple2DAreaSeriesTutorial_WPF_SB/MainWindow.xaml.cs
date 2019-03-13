@@ -1,5 +1,5 @@
 ﻿// ------------------------------------------------------------------------------------------------------
-// LightningChart® example code:  Simple 2D AreaSeries Chart Demo.
+// LightningChart® example code: 2D AreaSeries Chart Demo.
 //
 // If you need any assistance, or notice error in this example code, please contact support@arction.com. 
 //
@@ -14,7 +14,7 @@ using System.Windows;
 using System.Windows.Media;
 
 // Arction namespaces.
-using Arction.Wpf.SemibindableCharting;            // LightningChartUltimate and general types.
+using Arction.Wpf.SemibindableCharting; // LightningChartUltimate and general types.
 
 namespace Simple2DAreaSeriesTutorial_WPF_SB
 {
@@ -34,9 +34,6 @@ namespace Simple2DAreaSeriesTutorial_WPF_SB
             // and to prevent unnecessary chart redrawing while changing multiple properties.
             chart.BeginUpdate();
 
-            // Set chart control into parent container.
-            //(Content as Grid).Children.Add(chart);
-
             // Create variable for view from ViewXY.
             // This is done using XAML.
 
@@ -44,8 +41,8 @@ namespace Simple2DAreaSeriesTutorial_WPF_SB
             // This is done using XAML.
 
             // Add styling for created series.
-            areaSeries1.Fill.Color = Color.FromRgb(176, 196, 222); // LightSteelBlue.
-            areaSeries1.LineStyle.Color = Color.FromRgb(0, 0, 0); // Black.
+            areaSeries1.Fill.Color = Color.FromRgb(176, 196, 222);  // LightSteelBlue.
+            areaSeries1.LineStyle.Color = Color.FromRgb(0, 0, 0);   // Black.
             areaSeries1.Fill.GradientFill = GradientFill.Solid;
 
             // 2. Define AreaSeriesPoints and add them to AreaSeries.
@@ -72,12 +69,12 @@ namespace Simple2DAreaSeriesTutorial_WPF_SB
             // This is done using XAML.
 
             // Add styling for created series.
-            areaSeries2.Fill.Color = Color.FromRgb(250, 250, 210); // LightGoldenrodYellow.
-            areaSeries2.LineStyle.Color = Color.FromRgb(0, 0, 0); // Black.
+            areaSeries2.Fill.Color = Color.FromRgb(250, 250, 210);  // LightGoldenrodYellow.
+            areaSeries2.LineStyle.Color = Color.FromRgb(0, 0, 0);   // Black.
             areaSeries2.Fill.GradientFill = GradientFill.Solid;
 
-            areaSeries3.Fill.Color = Color.FromRgb(255, 140, 0); // DarkOrange.
-            areaSeries3.LineStyle.Color = Color.FromRgb(0, 0, 0); // Black. 
+            areaSeries3.Fill.Color = Color.FromRgb(255, 140, 0);    // DarkOrange.
+            areaSeries3.LineStyle.Color = Color.FromRgb(0, 0, 0);   // Black. 
             areaSeries3.Fill.GradientFill = GradientFill.Solid;
 
             // 5. Define AreaSeriesPoints for both new AreaSeries and add them to AreaSeries.
