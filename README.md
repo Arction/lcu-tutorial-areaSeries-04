@@ -1,4 +1,4 @@
-# Simple 2D AreaSeries Chart
+# 2D AreaSeries Chart
 
 This tutorial explains how to create a simple 2D chart with multiple *AreaSeries*.  
 *AreaSeries* can be seen as a line connecting all datapoints assigned to it and coloring the area between the line and the axis.
