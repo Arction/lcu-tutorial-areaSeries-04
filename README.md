@@ -7,7 +7,7 @@ This tutorial explains how to create a simple 2D chart with multiple *AreaSeries
 
 The tutorial assumes that you have created a new chart with *LightningChart* on a WinForms or WPF application. If not, please follow our [Simple 2D Chart](https://www.arction.com/tutorials/#/lcu_tutorial_simple2Dchart_01) on creating an application.
 
-![](./assets/chart-area-series-2d-winforms-wpf.PNG)
+![chart with area series 2d winforms wpf](./assets/chart-area-series-2d-winforms-wpf.PNG)
 
 ##### 1. Create a new AreaSeries and add styling for created series.
 
